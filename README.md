@@ -1,0 +1,2 @@
+# CratesX
+Plugin for SpigotMC
