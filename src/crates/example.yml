@@ -1,0 +1,40 @@
+settings:
+  name: '&2Test crate'
+  animation: SIMPLE
+  effect: LAVA_POP
+
+items:
+  coal:
+    name: '&6Coal'
+    type: ITEM
+    item:
+      id: COAL
+    chance: 40
+  iron:
+    name: '&6Iron ingot'
+    type: ITEM
+    item:
+      id: IRON_INGOT
+    chance: 25
+  gold:
+    name: '&6Gold ingot'
+    type: ITEM
+    item:
+      id: GOLD_INGOT
+    chance: 20
+  diamond:
+      name: '&bCreative mode'
+      type: COMMAND
+      item:
+        id: DIAMOND
+      command: 'gm 1 {USERNAME}'
+      chance: 10
+      notify: true
+  emerald:
+      name: '&a5000$'
+      type: MONEY
+      item:
+        id: EMERALD
+      money: 5000
+      chance: 5
+      notify: true

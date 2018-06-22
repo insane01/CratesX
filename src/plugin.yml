@@ -1,0 +1,8 @@
+name: CratesX
+main: com.insane.cratesx.CratesX
+version: 1.0
+author: Insane
+commands:
+  crate:
+    description: Main command for CratesX
+    aliases: [crates,cratesx]
